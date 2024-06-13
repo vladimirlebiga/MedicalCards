@@ -1,0 +1,170 @@
+
+* {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.logo--img{
+height: 100px;
+width: 100px;
+}
+
+.container {
+    max-width:1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+.nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  margin-left: 42.5px;
+  margin-bottom: 5px;
+}
+
+#password {
+  margin-left: 10px;
+  margin-bottom: 20px;
+} */
+
+/* Modal Window*/
+
+.modal {
+   /* display: none;  Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 300px;
+   
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*Buttons*/
+
+  .log-in-btn, .header-btn {
+    /* position: absolute; */
+    top: 30%; /* Adjust this value to move the button higher or lower */
+    left: 8%;
+    height:40px;
+    width:80px;
+    border-radius: 30px;
+    background-color: #00ACDC;
+    color: white;
+  }
+
+  .cancel-btn {
+    /* position: absolute; */
+    top: 30%; /* Adjust this value to move the button higher or lower */
+    left: 8%;
+    height:40px;
+    width:80px;
+    border-radius: 30px;
+    background-color: #ee692c;
+    color: white;
+  }
+
+  .demo-btn {
+    /* position: absolute; */
+    top: 30%; /* Adjust this value to move the button higher or lower */
+    left: 8%;
+    height:40px;
+    width:80px;
+    border-radius: 30px;
+    background-color: #03e921;
+    color: white;
+  }
+  /* .header-btn {} */
+
+
+
+  .log-in-btn:hover{
+    cursor: pointer;
+}
+
+/* Form */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Adjust width as needed */
+}
+
+.form label {
+  margin-bottom: 10px; /* Space between labels */
+}
+
+.form .input{
+  width: 98%;
+  margin-top: 5px; /* Space between input fields */
+  margin-bottom: 10px;
+}
+
+.form select {
+  width: 100%;
+  margin-top: 5px; /* Space between input fields */
+  margin-bottom: 10px;
+}
+
+
+.log-in-btn {
+  margin-left: 0; /* Remove margin for the first button */
+  margin-top: 5px; /* Space between input fields */
+}
+
+.cancel-btn {
+  margin-left: 0; /* Remove margin for the first button */
+  margin-top: 5px; /* Space between input fields */
+}
+
+.demo-btn {
+  margin-right: 0; /* Remove margin for the last button */
+  margin-top: 5px; /* Space between input fields */
+}
+
+/* Form-wrapper*/
+
+#form-wrapper textarea {
+  width: 99%;
+  height: 50px;
+  margin-top: 5px; /* Space between input fields */
+  margin-bottom: 7px;
+}
+

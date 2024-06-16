@@ -1,5 +1,5 @@
 import api from "./Classes/API/API.js";
-import header from "./Classes/Header/header.js";
+import header from "./Classes/Header/Header.js";
 import cards from "./Classes/Cards/Cards.js";
 import searchbar from "./Classes/Search/Searchbar.js";
 
